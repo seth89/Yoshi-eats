@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoshi's Eats</title>
+    <link rel="stylesheet" href="./restaurantmenu.css" type="text/css">
+</head>
+<body>
+    <Header class="headerbackground" id="HeadBack">
+        <h1 class="Yoshi" id="Yoshieats">Yoshi's Eats</h1><br><br>
+        <nav>
+           <a href="#menu">Menu</a><br>
+           <a href="#order-number">Order Number</a>
+        </nav><br><br>
+        <img id="header-img" src="https://i.pinimg.com/736x/68/35/5c/68355ca402e84e7c447c66011a98d87d.jpg" height="300px" width="300px" alt="Yoshi eating"> 
+    </Header>
+    <main class="mainbackground" id="MainBack">
+        <section>
+            <h2 class="Food" id="menu">Menu</h2><br>
+            <article>
+                <h3>Yoshi Salad</h3>
+                <figure>
+                    <img
+                    height="200px"
+                    width="300px"
+                    src="https://japantoday-asset.scdn3.secure.raxcdn.com/img/store/6f/a3/4dca9ad7c9747083d5c9a570bb52566ed529/YE-1/_w1700.jpg" alt="Yoshi salad">
+                </figure>
+                <p>The Yoshi salad contains yoshi green lettuce, spotted yoshi eggs, cheese stars, mushroom tomatoes, and yoshi dressing. <em>Price $12</em></p>
+            </article>
+            <br/>
+            <hr style="width:95%"/>
+            <br/> 
+            <article>
+                <h3>Yoshi smooties</h3>
+                <figure>
+                    <img 
+                    height="300px"
+                    width="300px"
+                    src="https://media.wdwnt.com/2021/01/Mario-Yoshi-Lassi-8650221-1200x1004.jpeg" alt="Yoshi smoothies">
+                </figure>
+                <p>Yoshi smoothies include Mango Splash includes: Mangos, Almond milk, Orange juice, banana and greek yogurt. The Green Lizard Spit includes: blueberries, spinach, kale, banana and chia seeds. <em>Price $8</em></p>
+            </article>
+            <br/>
+            <hr style="width:95%"/>
+            <br/>
+            <article>
+                <h3>Yoshi Burger</h3>
+                <figure>
+                    <img
+                    height="300px"
+                    width="300px"
+                    src="https://i.redd.it/5351st4g2hq51.jpg" alt="yoshi burger">  
+                </figure>
+                <p>The Yoshi Burger is a juicy steak patty marinated in ginger & scallions, topped with chipotle aioli, red cabbage slaw on a Brioche Bun served with french fries. <em>Price $11</em></p>
+            </article>
+            <br/>
+            <hr style="width:95%"/>
+            <br/>
+            <article>
+                <h3>Yoshi cookies</h3>
+                <figure>
+                    <img
+                    height="300px"
+                    width="300px"
+                    src="https://i.redd.it/7loi1czo88u91.jpg" alt="yoshi cookies">
+                    <p>Yoshi cookies are made with butter, eggs, vanilla, frosting, sugar and flour <em>Price $3ea</em></p>
+                </figure>
+            </article>
+            <br/>
+            <hr style="width:95%"/>
+            <br/>
+        </section>
+        <div class="row" id="rows">
+            <div class="column">
+              <img src="https://www.foodandwine.com/thmb/F5AyGqvRO3i9MdIlUAo6wbdSvjU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/baked-asparagus-FT-RECIPE0921-93ca7be835d345d8aa2bea244e463f1a.jpg" alt="asparagus" height="200px" width="200px">Asparagus
+            </div>
+            <div class="column">
+              <img src="https://images.squarespace-cdn.com/content/v1/631b82c5a4089b1fe92d0318/b3053157-212e-4026-ac96-7048070178f4/Yoshi+Yum+030922+11.jpg" alt="yoshi sushi" height="200px" width="200px">Yoshi sushi
+            </div>
+            <div class="column">
+              <img src="https://orlandoinformer.com/wp-content/uploads/2023/01/Yoshis-Favorite-Fruit-Veggie-Salad-Super-Nintendo-World-1024x683.jpg" alt="yoshi salad" height="200px" width="200px">Yoshi side salad
+            </div>
+        </div>
+        <section class="Orderbackground" id="OrBack">
+            <h2 class="Order" id="order-number">Place Your Order</h2>
+            <form action="submit" method="post">
+                <h3>Menu Items:</h3>
+                <label for="item1">Item 1:</label>
+                <input type="number" id="item1" name="item1" min="0" value="0" required>
+                <br>
+                <label for="item2">Item 2:</label>
+                <input type="number" id="item2" name="item2" min="0" value="0" required>
+                <br>
+                <label for="item3">Item 3:</label>
+                <input type="number" id="item3" name="item3" min="0" value="0" required>
+                <br>
+                <label for="item4">Item 4:</label>
+                <input type="number" id="item4" name="item4" min="0" value="0" required>
+                <br>
+
+                <h3>Sides</h3>
+                <input type="checkbox" id="side1" name="side1" value="Side 1">
+                <label for="side1">Side 1</label><br>
+                <input type="checkbox" id="side2" name="side2" value="Side 2">
+                <label for="side2">Side 2</label><br>
+                <input type="checkbox" id="side3" name="side3" value="Side 3">
+                <label for="side3">Side 3</label><br>
+
+                <h3>Add-ons:</h3>
+                <input type="radio" id="addon1" name="addon" value="Addon 1">
+                <label for="addon1">Add-on 1</label><br>
+                <input type="radio" id="addon2" name="addon" value="Addon2">
+                <label for="addon2">Add-on 2</label><br>
+
+                <h3>Special Request:</h3>
+                <textarea id="specialReq" name="specialReq"></textarea><br>
+                
+            </form>
+
+            <a href="checkout.html" target="_blank">
+                <button>Go to Checkout</button>
+              </a>
+
+        </section>
+    </main>
+</body>
+<footer class="footerbackground" id="FootBack">
+    <p>Made with love by: @seth89-34</p>
+</footer>
+</html>
+
+
+
+  
+  
+  
+

@@ -1,0 +1,47 @@
+* {
+    /* background-color: lightskyblue; */
+    font-family: monospace;
+    text-align: center;
+    margin: 0;
+}
+nav {
+    font-style: oblique;
+    font-size: larger;
+}
+#header-img {
+   border: solid; 
+   text-align: center;
+   
+}
+#OrBack {
+    background-color: lightskyblue;
+}
+#MainBack {
+    background-color: rgb(66, 219, 52);
+}
+#HeadBack {
+    background-color: rgb(219, 66, 66);
+    color: rgb(7, 7, 7);
+}
+#FootBack {
+    background-color: rgb(75, 77, 78);
+    color: whitesmoke;
+}
+#menu {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 60px;
+}
+#Yoshieats{
+    font-size: 50px;
+}
+#order-number {
+    font-size: 50px;
+}
+#rows {
+    display: flex;
+}
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
