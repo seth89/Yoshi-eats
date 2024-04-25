@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: rgb(61, 132, 199); */
+    background: url('https://wallpapercave.com/wp/wp2911982.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.wrapper {
+    margin: 150px auto;
+    width: 70%;
+}
+
+
+.text-box {
+    color: rgb(2, 2, 2);
+}
+
+/* .text-box h2 {
+    font-size: 42px;
+    font-family: Comic Sans MS, monospace;
+} */
+
+.text-box p {
+    font-size: 16px;
+    font-family: monospace, 'Times New Roman', Times, serif;
+}
+
+
+/* h2 {
+    color: white;
+} */
+
+.receipt {
+    max-width: 320px;
+    border: 3px solid rgb(53, 230, 82);
+    border-radius: 15%;
+    height: 300px;
+    width: 300px;
+    opacity: 95%;
+    /* position: relative; */
+    float: left;
+    /* margin-right: 10px; */
+    
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgb(69, 73, 75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 32px;
+    color: rgb(84, 241, 78);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.yoshicon {
+    position: relative;
+    right: 400%;
+    height: 50px;
+}
+
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: rgb(84, 241, 78);
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: white;
+    transition: .3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+
+/* p {
+    font-family: Garamond, sans-serif;
+    font-size: 24px;
+    
+    
+} */
+
+/* .initials {
+   opacity: 98%;
+   height: 150px;
+   width: 150px;
+   border: 2px solid red;
+   border-radius: 15%;
+}
+
+.button {
+    
+} */
+
+/* .receipt {
+    float:left;
+}
+p {
+    float:left;
+} */

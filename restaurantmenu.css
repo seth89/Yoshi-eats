@@ -1,14 +1,47 @@
- * {
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+ 
+  * {
     /* background-color: lightskyblue;
     font-family: monospace; */
     text-align: center;
     margin: 0;
 } 
-nav {
+nav  {
     font-size: larger;
     font-family: monospace;
     text-align: center;
+    
 }
+nav a:hover {
+    /* color: rgb(56, 90, 214) */
+    background-color: rgb(189, 90, 65);
+    position: fixed;
+}
+
+
+
+/* 
+.receipt {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    right: 50%;
+
+} */
+
+
+.res1 {
+    position: relative;
+    left: 25%;
+    width: 200px;
+    height: 200px;
+}
+
+
 #header-img {
    display: flex;
    justify-content: center;
@@ -24,19 +57,28 @@ nav {
     background-color: rgb(17, 16, 16);
 }
 #HeadBack {
+    /* margin: 0;
+    border: 0;
+    padding: 0; */
     background-color: white;
     color: rgb(15, 102, 202);
+    
 }
 #FootBack {
     background-color: rgb(5, 5, 5);
     color: whitesmoke;
 }
+
+
+
+
+
 #menu {
     font-style: italic;
     font-weight: bolder;
     font-size: 60px;
     text-align: center;
-    color: white;
+    color: rgb(201, 29, 29);
 }
 #Yoshieats, #order-number {
     font-size: 50px;
@@ -45,6 +87,8 @@ nav {
     text-shadow: 6px 6px 6px rgb(67, 206, 90), 0 0 25px rgb(255, 242, 242), 0 0 5px rgb(32, 131, 189);
     
 }
+
+
 
 #rows {
     display: flex;
@@ -61,6 +105,8 @@ p {
 
 
 
+
+
 /* .backgrdimg {
     background-image: url("https://i.pinimg.com/736x/68/35/5c/68355ca402e84e7c447c66011a98d87d.jpg");
     background-repeat: no-repeat;
@@ -70,12 +116,14 @@ p {
 } */
 
 .post-image {
-    width: 300px;
-    height: 300px;
+    /* position: relative; 
+    left: 15%; */
+    width: 200px;
+    height: 200px;
     border: 8px solid rgb(26, 95, 165);
     border-radius: 5%;
     text-align: center;
-
+    
 }
 
 .side-image {
@@ -99,9 +147,12 @@ figure > img {
     text-align: center;
 }
 
-.h3center {
-    text-align: center;
-}
+/* .h3center {
+    position: relative;
+    left: 70%;
+    top: 100%;
+    color: white; 
+} */
 
 .flex-container {
     display: flex;
@@ -125,6 +176,13 @@ ul {
     width: 100%;
   }
 
+
+  .h3center {
+    position: relative;
+    color: white;
+    right: 7%;
+  }
+
   li {
     display: inline;
     float: left;
@@ -139,10 +197,43 @@ ul {
     text-decoration: none;
   }
 
-  .h3center {
-    color: white;
-  }
 
-  .orderheads {
+
+  .relative {
+    position: relative;
+    right: 8%;
+  } 
+  
+  /* .orderheads {
+    position: relative;
+    left: 45%;
     color: black;
   }
+  
+
+ 
+
+  #side1 {
+    position: relative;
+    left: 45%;
+  }
+    
+  #item1 {
+    position: relative;
+    left: 40%;
+  }
+
+  #specialReq {
+    position: relative;
+    left: 45%;
+  }
+
+  label {
+    position: relative;
+    left: 39%;
+  }
+
+  .button {
+    position: relative;
+    left: 45%;
+  } */
